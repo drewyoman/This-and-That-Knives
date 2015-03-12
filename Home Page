@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title> This and That Knives </title>
+			<h1 align = "left"
+			<h1> This and That Knives</h1>
+			<body style="background-color:black">
+		<style>
+		/* Fonts, colors, and font sizes*/
+			p {font-family:verdana;color:white;font-size:130%}
+			h1 {font-family:impact;color:white}
+			h2 {font-family:verdana;color:white}
+			h3 {font-family:verdana;color:white}
+
+/* Navigation Bar*/
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 2;
+	list-style: none;
+	background-color: white;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+/*Column of Text*/
+    #columns {
+        width: 600px;
+    }
+    #columns .column {
+        position: relative;
+        width: 47%;
+        padding: 1%;
+        border: solid 1px #000;
+    }
+    #columns .left {
+        float: left;
+    }
+    #columns .right {
+        float: right;
+    }
+		</style>
+	</head>
+
+	<body>
+		<!--Navigation Bar-->
+		<ul id="nav">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="Knives.html">Knives</a></li>
+		<li><a href="Contact Info.html">Contact Info</a></li> </ul>
+
+		<!--First Column of Text-->
+		<div id="columns">
+		<div class="left column">
+		<p>Welcome to <strong>This and That Knives</strong>.
+		Within this website, you can view creative homemade knives. If you see a knife that interests you, 
+		feel free to use one of the contact methods for pricing or information. There are lots of options when it comes to knives.
+		So if you don't find what you are looking for, ask us about custom knives. For more immediate updates, please follow 
+		us on Facebook or Pinterest.</p> </div>
+
+		<!--First Image-->
+		img.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;}
+		<img src="http://images2.alphacoders.com/272/272520.jpg" alt="Knife"
+		style="width:304px;heigth:300px;" class="center"/>
+
+		<!--Second Image-->
+		<img src="http://www.blackberry3.com/wallpapers/pdtimgs/54237d66-0e34-4692-bbd3-5fcf37f3b8b9_1.jpg" alt="Knife"
+		style="width:304px;heigth:300px;"/>
+
+		<!--Second Column of Text-->
+		<div id="columns">
+		<div class="left column">
+		<p> Q: What do I need to know about this website? A: Here you can <strong><u>view</u></strong> homemade knives. To find out more
+		about a particular knife, contact us using the link provided <a href="Contact Info.html">here</a> or in the contact info tab. </p> </div>
+		
+		<!--Third Image-->
+		<img src="http://image.desk7.net/Military%20wallpapers/4480_1280x800.jpg" alt="Knife"
+		style="width:304px;heigth:300px;"/>
+
+		<script>
+
+		</script>
+	</body>
+</html>
